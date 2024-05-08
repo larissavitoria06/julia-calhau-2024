@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main (){
+    int número;
+    
+    for(número = 1; número <= 20; número ++)
+    
+    printf("\n %d° número ", número);
+    
+return 0;
+
+}
