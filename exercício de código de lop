@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int main() {
+    int código;
+
+    printf("Digite um némero de 1 a 15:");
+    scanf("%d",&código);
+
+    if (código <= 15) {
+    switch (código) {
+    case 1:
+    printf("Alimento não - perecível\n");
+        case 2:
+        case 3:
+        case 4: 
+    printf("Alimento perecível\n");
+     break;
+        case 5:
+        case 6:
+    printf("vestuário\n");
+     break;
+        case 7:
+            printf("Higiene pessoal\n");
+            break;
+        case 8:
+        case 9:
+        case 10:
+        case 11:
+        case 12:
+        case 13:
+        case 14:
+        case 15:
+            printf("Limpeza e Ultensílios Domésticos\n");
+     }
+        }else{
+        printf("valor incorreto \n");
+        }
+
+    return 0;
+}
