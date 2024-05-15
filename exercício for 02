@@ -2,7 +2,7 @@
 int main(){
      int numero;
      for(;;) {
-        printf("digitouite uma nota de 0 a 10: \n");
+        printf("digite uma nota de 0 a 10: \n");
         scanf("%d", &numero);
         
         if(numero <=10) {
