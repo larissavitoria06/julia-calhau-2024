@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(){
+     int senha;
+     for(;;) {
+        printf("digite uma senha: \n");
+        scanf("%d", &senha);
+        
+        if(senha ==2468) {
+            break;
+        }
+        else{
+            printf("senha invalida. \n");
+        }
+     }
+     printf("senha valida. \n)");
+   
+return 0;
+}
