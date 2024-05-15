@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main (){
+    int número;
+    for(;;) {
+    
+    printf("Digite o numero 1 ou 0: \n");
+    scanf("%d", &número);
+    if(número <= 1) {
+        
+    break;
+    
+    }else{
+    
+    printf("Número errado. \n");
+    }
+}
+    printf("Número Certo. \n");
+    
+    return 0;
+
+}
