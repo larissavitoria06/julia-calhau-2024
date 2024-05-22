@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float grade[5], sum=0;
+    int cont;
+
+    for(cont=0 ; cont<5 ; cont++)
+    {
+        cout<<"Insira um numero inteiro:";
+        cin >> grade[cont];
+        sum += grade[cont];
+    }
+
+    for(cont=0 ; cont<5 ; cont++)
+        cout<<grade[cont]<<endl;
+    
+        cout<<"soma: "<<sum<<endl;
+
+}
