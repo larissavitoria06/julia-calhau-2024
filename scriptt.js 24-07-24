@@ -1,0 +1,13 @@
+function btncadastrar(){
+    var numero1 = Number(document.getElementById("numero1").value);
+    var numero2 = Number(document.getElementById("numero2").value);
+    var mensagem = document. querySelector("#mensagem");
+    let conta;
+
+    conta = numero1 * numero2;
+
+    mensagem.innerHTML =`
+    <p>A resposta é: ${conta}</p>
+    `
+
+}
