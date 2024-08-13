@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <center><p><h4><font color="blue"><sub></sub><b><font size="10"face="Arial">Deixe um comentário</b></p></sub></font></center>
+</head>
+<body>
+    
+     <!-- comando para comentar e descomentar linha(CTRL+;)-->
+
+    <!-- TAG para formulário
+        action => para onde os dados do formulario irão
+        method => maneira que será enviado -->
+        <form action=""mthod"">
+            <label for="nome"> Nome: </label>
+
+            <br>
+
+            <!-- TAG input - Entrada de dado 
+            type => Define o tipo de dado 
+            id =>placeholder => texto de indentificação do input
+            -->
+
+       <input type="text"  placeholder="Digite o seu nome: " id="nome" required/>
+
+        <br>
+    
+        <p id="mensagem">website:</p>
+        <input type="websit " placeholder="digite seu website" id="websit">
+
+        <br>
+    
+        <p id="mensagem">E-mail:</p>
+        <input type="email " placeholder="digite seu E-mail" id="email">
+
+        <br>
+
+        <p id="mensagem">Comentario:</p>
+<textarea id="info"></textarea>
+
+
+<br>	
+
+<p id="mensagem">Observação: Seu comentario será publicado após passar pelo moderador</p>
+<button onclick="clicou()">Enviar Comentario</button>
+<br>
+    
+</body>
+</html>
