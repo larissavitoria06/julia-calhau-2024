@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <center><p><b><font size="7" face="Negrito">Manutenção de usuárias do sistema interno</b></p></center>
+</head>
+<body>
+    <!-- comando para comentar e descomentar linha(CTRL+;)-->
+
+    <!-- TAG para formulário
+        action => para onde os dados do formulario irão
+        method => maneira que será enviado -->
+    <form action=""mthod"">  <p><b><font size="3"
+        <label for="login"> Login: </label>
+        <!-- TAG input - Entrada de dado 
+        type => Define o tipo de dado 
+        id =>placeholder => texto de indentificação do input
+        -->
+    <input type="text" id="login:" placeholder="Faça o seu Login: " required/>
+
+    <br>
+
+     <label for="senha">Senha:</label>
+     <input id="senha" type="password"/>
+
+    <br>
+
+     <label for="Status">Informe seu Status:</label>
+
+     <br>
+     
+<select id="Status">
+<option>inativa/o</option>
+<option>Divorciada/o</option>
+<option>Deputada</option>
+<option>Casada/o </option>
+<option>Ela gosta/o</option>
+<option>Solteira/o</option>
+<option>viuva negra/o </option>
+<option>pobre lascada/o</option>
+<option>presidenta apressada</option>
+</select>
+<br>
+    <legend>Tipo:</legend>
+    <input type="radio" id="masc" name="técnico" />
+    <label for="Téc">técnico</label>
+    <input type="radio" id="Prof" name="profissão"/>
+    <label for="Prof">Professor</label>
+    <input type="radio" id="Aluno" name="profissão"/>
+    <label for="Aluno">aluno</label>
+
+ <br>
+
+ <label for="datadenascimento">Data de Criação: </label>
+ <input  type="date" id="datadenascimento">
+
+ <br>
+   
+    <legend> Perfil:</legend>
+    <input type="radio" id="convi" name="convidado" />
+    <label for="convi">convidado</label>
+    <input type="radio" id="Prof" name="profissão"/>
+    <label for="Admins">Administrador</label>
+
+ <br>
+
+ <label for="info">Observações:</label><br>
+<textarea id="info"></textarea>
+
+<br>
+
+    <legend> Módulos:</legend>
+    <input type="checkbox" id="compras" name="módulos" />
+    <label for="compras">compras</label>
+    <input type="checkbox" id="biblioteca" name="módulos"/>
+    <label for="biblio">biblioteca</label>
+    <input type="checkbox" id="Acadêmico" name="módulos"/>
+    <label for="Acadê">Acadêmico</label>
+ 
+ <br>
+
+    <input type="checkbox" id="Documentação" name="módulos" />
+    <label for="Document">Documentação</label>
+    <input type="checkbox" id="Rcshmss" name="módulos"/>
+    <label for="Rcshms">Recursos humanos</label>
+
+ <br>
+
+ <button onclick="clicou()">Cadastrar</button>
+<button onclick="clicou()">Excluir</button>
+
+ <br>
+</font>
+</body>
+</html>
