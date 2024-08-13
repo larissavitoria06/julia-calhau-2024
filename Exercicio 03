@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <center><p><h4><font><sub></sub><b><font size="10"face="NEGRITO">Deixe um comentário</b></p></sub></font></center>
+</head>
+<body>
+    </sub><p><b><font size="5" </p></font>
+     <!-- comando para comentar e descomentar linha(CTRL+;)-->
+
+    <!-- TAG para formulário
+        action => para onde os dados do formulario irão
+        method => maneira que será enviado -->
+        <form action=""mthod""> 
+            <fieldset>
+
+            <br>
+           
+         <legend>Dados pessoais</legend>
+         <p id="mensagem">Nome:<input type="nome " placeholder="Nome" id="nome"></p>
+        <br>
+    
+        <p id="mensagem">Endereço:<input type="Endereço " placeholder="digite seu Endereço" id="Endereço"></p>
+
+        <br>
+    
+        <p id="mensagem">E-mail:<input type="email " placeholder="digite seu E-mail" id="email"></p>
+</fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p id="mensagem">Nome:<input type="nome " placeholder="Nome" id="nome"></p>
+           <br>
+       
+           <p id="mensagem">Endereço:<input type="Endereço " placeholder="digite seu Endereço" id="Endereço"></p>
+   
+           <br>
+       
+           <p id="mensagem">E-mail:<input type="email " placeholder="digite seu E-mail" id="email"></p>
+   </fieldset>
+           <br>
+            
+
+                <br>
+
+</body>
+</html>
+
+<button onclick="clicou()">Cadastrar</button>
+<button onclick="clicou()">Excluir</button>
+
+<br>
+
+</body>
+</html>
