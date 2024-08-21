@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- Div's são containers -->
+        <div class="containerheader">
+            <div class="containerLogo">
+            </div>
+            <div class="containerMenu">
+                <nav>
+                    <a href="index.html">Inicio</a>
+                    <a href="contato.html">Cadastro</a>
+                    <a href="quemsomos.html">Sobre</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="containerBanner">
+            <img src="aula de lima 04/imagem academia 02.webp">
+        </div>
+<br>
+            </div>
+            <div class="divimagem">
+                <img src="logo.png">
+
+ <!-- Div's são containers -->
+ <div class="containerheader">
+    <div class="containerLogo">
+    </div>
+    <div class="containerMenu">
+        <nav>
+            <a href="texto">  Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Rerum quibusdam soluta voluptas autem
+                illum
+                ratione sunt ducimus vitae illo fugit!<br> Inventore sed distinctio et veritatis pariatur quos ad
+                aspernatur voluptatum.</a>
+        <br>
+        </nav>
+    </div>
+                
+            </div>
+        </div>      
+    </main>
+</body>
+</html>
