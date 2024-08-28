@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <!-- Div's são containers -->
+        <div class="containerheader">
+            <div class="containerLogo"> 
+            <img src="logo.jpg">
+            </div>
+            <div class="containerMenu">
+<br>
+<header>
+    <br>
+     <!-- Div's são containers -->
+  </div>
+   <div class="containerMenu">
+   <nav>
+  
+                <a href="index.html">Inicio</a>
+                <a href="contato.html">Cadastro</a>
+                <a href="quemsomos.html">Sobre</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="containerBanner">
+            <img src="https://miro.medium.com/v2/resize:fit:1200/1*U2Ee1Uc4-qkEAw_GJlarFA.png">
+        </div>
+<br>
+            </div>
+
+ <!-- Div's são containers -->
+ <div class="containerheader">
+    <div class="containerLogo">
+        <img src="c:\Users\Desenvolvimento\Downloads\whatsapp.png">
+        <br>
+        <font= Arial a href="texto">nosso numero de whatsapp é (19)345782567</a></font>
+    </div>
+    <div class="containerMenu">
+        <br>
+        <br>
+    </div>
+    <div class="containerMenu">
+        <nav>
+            <a href="texto">  Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Rerum quibusdam soluta voluptas autem
+                illum
+                ratione sunt ducimus vitae illo fugit!<br> Inventore sed distinctio et veritatis pariatur quos ad
+                aspernatur voluptatum.</a>
+        <br>
+        </nav>
+    </div>
+                
+            </div>
+        </div>      
+    </main>
+</body>
+</html>
