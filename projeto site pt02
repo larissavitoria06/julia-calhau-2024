@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <style>
+        * {
+    margin: 0px;
+    padding: 0px;
+}
+
+.containerheader {
+    width: 100%;
+    background-color: mediumpurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+    & .containerLogo {
+        width: 40%;
+    }
+
+    & .containerLogo img {
+        width: 150px;
+    }
+
+    & .containerMenu {
+        width: 60%;  
+    }
+
+    & .containerMenu nav {
+        padding: 15px;
+    }
+
+    & .containerMenu nav a {
+        color: white;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 15px;
+        text-decoration: none;
+    }
+
+    & .containerMenu nav a:hover{
+        color: white;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 10px;
+        background: rgb(240, 133, 240);
+        border-radius: 16px;
+    }
+
+}
+
+main{
+    width: 100%;
+
+    & .containerBanner{
+        width: 100;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    & .containerBanner img {
+        width: 150%;
+        border-radius: 16px;
+        box-shadow: 8px 8px 5px #eee7ec;
+    }
+
+    & .containerBanner img:hover{
+        width: 80%;
+        transition: 2.0s;
+        border-radius: 16px;
+        box-shadow: 8px 8px 5px rgb(176, 132, 194);
+    }
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    width: 100%;
+    background: rgb(243, 152, 255);
+    color: aliceblues;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div1{
+
+    font-size: 22px;
+    font-family:'courier New', cairier, monospace;
+
+}
+
+.container_formulario{
+    width: 100%;
+    height: 350px;
+    border-color: blueviolet;
+    border: 30px;
+    margin: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 15px;
+
+}
+
+input{
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    border: nome;
+
+}
+
+#botao{
+    width: 100px;
+    background: rbag;
+    color: white;
+
+}
+main{
+    width: 100%;
+
+    & .containerBanner{
+        width: 100;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+
+    }
+
+    & .containerBanner img {
+        width: 150%;
+        border-radius: 16px;
+        box-shadow: 8px 8px 5px #eee7ec;
+    }
+
+    & .containerBanner img:hover{
+        width: 80%;
+        transition: 2.0s;
+        border-radius: 16px;
+        box-shadow: 8px 8px 5px rgb(176, 132, 194);
+    }
+
+}
+   
+
+
+
+    </style>
+    <header> 
+        <!-- Div's são containers -->
+        <div class="containerheader">
+            <div class="containerLogo"> 
+            <img src="logo.jpg">
+            </div>
+            <div class="containerMenu">
+<br>
+<header>
+    <br>
+     <!-- Div's são containers -->
+  </div>
+   <div class="containerMenu">
+   <nav>
+  
+                <a href="index.html">Inicio</a>
+                <a href="contato.html">Cadastro</a>
+                <a href="quemsomos.html">Sobre</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="containerBanner">
+        
+            
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<br>
+<header>
+    <br>
+     <!-- Div's são containers -->
+  </div>
+   <div class="containerMenu">
+   <nav>
+  
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <center><p><h4><font><sub></sub><b><font size="10"face="NEGRITO">Cadastro</b></p></sub></font></center>
+</head>
+<body>
+    
+    </sub><p><b><font size="5" </p></font>
+     <!-- comando para comentar e descomentar linha(CTRL+;)-->
+
+    <!-- TAG para formulário
+        action => para onde os dados do formulario irão
+        method => maneira que será enviado -->
+        <form action="mthod"> 
+
+            <br>
+           
+        <center><p  id="mensagem"><input type="nome " placeholder="👤 Nome" ></p></center>
+        <br>
+    
+        <center><p id="mensagem"><input type="email " placeholder="✉  E-mail" id="email"></p></center>
+       
+        <br>
+        <center><p id="password"><input type="senha " placeholder="  🔒 Senha:" id="senha"></p></center>
+       
+        
+        
+        
+  
+    
+    <br>
+    <p></p><input type="checkbox" id="hamb"/> <center><label for="mc">lembrar senha? </label></center>
+    <legend><font= aria-activedescendant="concordo com a Politica do uso de privacidade"</font></legend>
+    <br>
+<br>
+
+</body>
+</html>
+
+<center><button onclick="clicou()">Cadastrar</button></center>
+<br>
+
+</body>
+</html>
+</body>
+</html>
