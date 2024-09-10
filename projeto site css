@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.containerheader {
+    width: 100%;
+    background-color: mediumpurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+    & .containerLogo {
+        width: 40%;
+    }
+
+    & .containerLogo img {
+        width: 150px;
+    }
+
+    & .containerMenu {
+        width: 60%;  
+    }
+
+    & .containerMenu nav {
+        padding: 15px;
+    }
+
+    & .containerMenu nav a {
+        color: white;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 15px;
+        text-decoration: none;
+    }
+
+    & .containerMenu nav a:hover{
+        color: white;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 10px;
+        background: rgb(240, 133, 240);
+        border-radius: 16px;
+    }
+
+}
+
+main{
+    width: 100%;
+
+    & .containerBanner{
+        width: 100;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    & .containerBanner img {
+        width: 150%;
+        border-radius: 16px;
+        box-shadow: 8px 8px 5px #eee7ec;
+    }
+
+    & .containerBanner img:hover{
+        width: 80%;
+        transition: 2.0s;
+        border-radius: 16px;
+        box-shadow: 8px 8px 5px rgb(176, 132, 194);
+    }
+
+}
