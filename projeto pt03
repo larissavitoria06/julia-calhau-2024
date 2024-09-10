@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <style>
+        * {
+    margin: 0px;
+    padding: 0px;
+}
+
+.containerheader {
+    width: 10%;
+    background-color: mediumpurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+    & .containerLogo {
+        width: 30%;
+    }
+
+    & .containerLogo img {
+        width: 15  px;
+    }
+
+    & .containerMenu {
+        width: 60%;  
+    }
+
+    & .containerMenu nav {
+        padding: 15px;
+    }
+
+    & .containerMenu nav a {
+        color: white;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 15px;
+        text-decoration: none;
+    }
+
+    & .containerMenu nav a:hover{
+        color: white;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 10px;
+        background: rgb(240, 133, 240);
+        border-radius: 16px;
+    }   
+
+}
+
+main{
+    width: 30%;
+
+    & .containerBanner{
+        width: 35;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        width: 300px ;
+        height: 100px;
+    }
+
+    & .containerBanner img {
+        width: 30%;
+        border-radius: 10px;
+        box-shadow: 8px 8px 5px #eee7ec;
+    }
+
+    & .containerBanner img:hover{
+        width: 30%;
+        transition: 1.0s;
+        border-radius: 16px;
+        box-shadow: 8px 8px 5px rgb(176, 132, 194);
+    }
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    width: 100%;
+    background: rgb(243, 152, 255);
+    color: aliceblues;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div1{
+
+    font-size: 22px;
+    font-family:'courier New', cairier, monospace;
+
+}
+
+.container_formulario{
+    width: 100%;
+    height: 350px;
+    border-color: blueviolet;
+    border: 30px;
+    margin: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 15px;
+
+}
+
+input{
+    width: 20px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    border: nome;
+
+}
+
+#botao{
+    width: 100px;
+    background: rbag;
+    color: white;
+
+}
+main{
+    width: 30%;
+
+    & .containerBanner{
+        width: 30;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    & .containerBanner img {
+        width: 30%;
+        border-radius: 16px;
+        box-shadow: 8px 8px 5px #eee7ec;
+    }
+
+    & .containerBanner img:hover{
+        width: 30%;
+        transition: 1.0s;
+        border-radius: 16px;
+        box-shadow: 8px 8px 5px rgb(0, 0, 0);
+    }
+
+}
+   
+
+
+
+    </style>
+    <header> 
+        <!-- Div's são containers -->
+        <div class="containerheader">
+            <div class="containerLogo"> 
+            <img src="logo.jpg">
+            </div>
+            <div class="containerMenu">
+<br>
+<header>
+    <br>
+     <!-- Div's são containers -->
+  </div>
+   <div class="containerMenu">
+   <nav>
+  
+                <a href="index.html">Inicio</a>
+                <a href="contato.html">Cadastro</a>
+                <a href="quemsomos.html">Sobre</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="containerBanner">
+        
+            
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<br>
+<header>
+
+     <!-- Div's são containers -->
+  </div>
+   <div class="containerMenu">
+   <nav>
+  
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <center><p><h4><font><sub></sub><b><font size="10"face="NEGRITO">Quem somos</b></p></sub></font></center>
+</head>
+<body>
+    
+    </sub><p><b><font size="5" </p></font>
+     <!-- comando para comentar e descomentar linha(CTRL+;)-->
+
+    <!-- TAG para formulário
+        action => para onde os dados do formulario irão
+        method => maneira que será enviado -->
+        <form action="mthod"> 
+
+            
+            <body>
+                <P><H3><I><font natação nas olipiadas historicas</I></H3></P></font>
+                <center><p><h3><font size="4"> Usar o Bootstrap em um projeto React pode trazer diversos benefícios. O Bootstrap é um dos frameworks CSS mais populares e oferece um conjunto robusto de ferramentas para a construção de interfaces responsivas e esteticamente agradáveis. Quando integrado com React, ele pode potencializar a eficiência e a aparência do seu projeto. Aqui estão alguns dos principais benefícios:
+
+                    1. Design Responsivo
+                    Bootstrap oferece um sistema de grid flexível e componentes responsivos que facilitam a criação de layouts que se adaptam a diferentes tamanhos de tela. Isso é especialmente útil para garantir que sua aplicação tenha uma boa aparência em dispositivos móveis e desktops.
+                    2. Componentes Pré-Construídos
+                    Bootstrap vem com uma ampla gama de componentes prontos, como botões, formulários, modais, barras de navegação, entre outros. Usar esses componentes pode acelerar o desenvolvimento, pois você não precisa construir esses elementos do zero.
+                    3. Consistência de Design
+                    Bootstrap proporciona um design consistente com um conjunto padrão de estilos e componentes. Isso ajuda a garantir que sua aplicação tenha uma aparência uniforme e profissional, o que é especialmente útil em projetos com múltiplos desenvolvedores.
+                    4. Integração com React
+                 
+                <br>
+                <div class="containerBanner">
+                    <img src="c:\Users\Desenvolvimento\Downloads\Add-Bootstrap-to-React-950x500.jpg"></center>
+                </div>
+        <br>
+                  
+                    <P><H3><I><font natação nas olipiadas historicas</I></H3></P></font>
+                    <p><h3><font size="4">Existem bibliotecas específicas, como react-bootstrap e reactstrap, 
+                        que fazem a integração entre Bootstrap e React de forma mais suave. Essas bibliotecas fornecem componentes Bootstrap como componentes React, permitindo que você utilize o poder do Bootstrap enquanto mantém a filosofia de componentes do React.
+                        5. Comunidade e Suporte
+                        Bootstrap tem uma grande comunidade e é amplamente utilizado, o que significa que há uma abundância 
+                        de recursos, tutoriais e suporte disponível. Isso pode ser uma grande vantagem quando você precisa de ajuda ou deseja aprender melhores práticas.
+                        6. Personalização
+                        Bootstrap permite personalizar seus estilos e temas através de variáveis de Sass. Isso significa que você
+                         pode adaptar o design do Bootstrap para se alinhar com a identidade visual da sua marca ou projeto.
+                        7. Acessibilidade e Compatibilidade
+                        Bootstrap é projetado com acessibilidade em mente e é compatível com uma ampla gama de navegadores.
+                         Isso ajuda a garantir que sua aplicação seja acessível a uma ampla audiência e funcione corretamente em diferentes ambientes.
+                        Como Integrar Bootstrap com React
+                        Para começar a usar Bootstrap com React, você pode optar por duas abordagens principais:
+                        Importar o CSS do Bootstrap diretamente: Adicione o link do Bootstrap no seu index.html ou 
+                        instale o pacote via npm/yarn e importe-o no seu arquivo CSS principal.</ins></h3></P></p></font>
+                          </mark></h1></p></center>
+                        <br>
+                    </fieldset>
+<br>
+
+<br>
+
+</nav>
+</div>
+
+</body>
+</html>
+
+<br>
+<!-- Div's são containers -->
+<div class="containerheader">
+    <div class="containerLogo">
+        <img src="c:\Users\Desenvolvimento\Downloads\insta.webp">
+        <br>
+        <font= Arial a href="texto">acesse noso instagram tecn.senai34@gmail.com</a></font>
+    </div>
+    <div class="containerMenu">
+        <br>
+        <br>
+    </div>
+    <div class="containerMenu">
+        <nav>
+            <a href="texto">  Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Rerum quibusdam soluta voluptas autem
+                illum
+                ratione sunt ducimus vitae illo fugit!<br> Inventore sed distinctio et veritatis pariatur quos ad
+                aspernatur voluptatum.</a>
+        <br>
+        </nav>
+    </div>
+                
+            </div>
+        </div>      
+    </main>
+</body>
+</html>
+
+</body>
+</html>
+</body>
+</html>
